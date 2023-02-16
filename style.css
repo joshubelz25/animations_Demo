@@ -1,0 +1,68 @@
+body{
+    background-color: yellow;
+}
+div{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    animation: move 5s infinite;
+}
+h1{
+    text-align: center;
+    animation: spin 99s infinite;
+}
+@keyframes move{
+    5%{
+        left:100px;
+       top:550px 
+    }
+    10%{
+        left: 999px;
+        top:999px;
+    }
+    20%{
+        left:999px;
+        top:999px;
+    }
+    30%{
+        left:999px;
+        top:402px;  
+    }
+    40%{
+        left:999px;
+        top: 450px;
+    }
+    50%{
+        left:999px;
+        top:800px;
+    }
+    60%{
+        left: 999px;
+        top: 800px;
+    }
+    70%{
+        left:999px;
+        top:800px;
+    }
+    80%{
+        left: 999px;
+        top: 800px;
+    }
+    90%{
+        left: 999px;
+        bottom: 800px;
+    }
+    100%{
+        left:999px;
+        top:800px
+    }
+}
+@keyframes spin {
+    from{
+        transform: rotateY(0deg); }
+        to{
+            transform: rotateY(360deg);
+        }
+}
